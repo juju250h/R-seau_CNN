@@ -429,7 +429,7 @@ print(calcul_accuracy_test(X_test, y_test, w_f_fin, b_f_fin, Slide, w_fin, b_fin
 import tkinter as tk
 
 def lancer_interface(filtre, b_filtre, slide, w, b):
-    print("Ouverture de la fenêtre de dessin pour essayer l'IA. Veuillez dessiner le plus proche possible que la base MNIST (centré...) car l'IA n'a été entrainé que sur ce type de numéros.")
+    print("Ouverture de la fenêtre de dessin pour essayer l'IA. Veuillez dessiner le plus proche possible de la base MNIST (centré...) car l'IA n'a été entrainé que sur ce type de numéros.")
 
     # Configuration
     ZOOM = 10  # On affiche en 280x280 pour que ce soit utilisable
@@ -510,4 +510,5 @@ def lancer_interface(filtre, b_filtre, slide, w, b):
     root.mainloop()
 
 # Lancement final
+
 lancer_interface(w_f_fin, b_f_fin, Slide, w_fin, b_fin)
